@@ -1,0 +1,17 @@
+title: "Reading Blog" # the name of your site, e.g. ACME Corp.
+tagline:
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+ Add description here
+author: Iqbal Nurjadin
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+google_analytics:
+
+sass:
+  sass_dir: assets/css
+
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+  - jekyll-sitemap
