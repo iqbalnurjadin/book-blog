@@ -10,3 +10,5 @@ plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
+
+theme: jekyll-theme-cayman
