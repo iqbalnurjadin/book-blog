@@ -2422,3 +2422,21 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 .invisible { visibility: hidden !important; }
 
 @media print { *, *::before, *::after { text-shadow: none !important; box-shadow: none !important; } a:not(.btn) { text-decoration: underline; } abbr[title]::after { content: " (" attr(title) ")"; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #adb5bd; page-break-inside: avoid; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } @page { size: a3; } body { min-width: 992px !important; } .container { min-width: 992px !important; } .navbar { display: none; } .badge { border: 1px solid #000; } .table { border-collapse: collapse !important; } .table td, .table th { background-color: #fff !important; } .table-bordered th, .table-bordered td { border: 1px solid #dee2e6 !important; } .table-dark { color: inherit; } .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; } .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
+
+.navbar-dark { background-color: #512DA8; }
+
+.row-header { margin: 0px auto; padding-top: 50px; }
+
+.row-content { margin: 0px auto; padding: 50px 0px 50px 0px; border-bottom: 1px ridge; min-height: 400px; }
+
+.jumbotron { padding: 70px 30px 70px 30px; margin: 0px auto; background-color: #d5d7db; }
+
+.jumbotron div { padding-top: 50px; }
+
+.footer { background-color: #d5d7db; margin: 0px auto; padding: 20px 0px 20px 0px; }
+
+.carousel { padding-top: 50px; }
+
+.carousel-item { height: 300px; }
+
+.carousel-item img { position: absolute; top: 0; left: 0; min-height: 300px; }

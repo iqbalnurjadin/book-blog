@@ -1,5 +1,8 @@
 - name: Home
   link: /
+- name: Reviews
+  link: /
+- name: Blog
+  link: /
 - name: About
   link: /about
-  
