@@ -1,6 +1,6 @@
 title: "Reading Blog"
 author: "Iqbal Nurjadin"
-url: "https://iqbalnurjadin.github.io/book-blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://iqbalnurjadin.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 sass:
   sass_dir: assets/css
