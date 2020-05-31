@@ -1,6 +1,5 @@
 title: "Reading Blog"
 author: "Iqbal Nurjadin"
-url: "https://iqbalnurjadin.github.io/book-blog" # the base hostname & protocol for your site, e.g. http://example.com
 
 sass:
   sass_dir: assets/css
@@ -9,3 +8,6 @@ plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-github-metadata
+
+repository: iqbalnurjadin/book-blog
