@@ -9,8 +9,6 @@ url: ""
 sass:
   sass_dir: assets/css
 
-theme: minimal-mistakes-jekyll
-
 plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
