@@ -1,8 +1,15 @@
-title: "Reading Blog"
-author: "Iqbal Nurjadin"
+title: Reading Blog
+author: Iqbal Nurjadin
+email: exampleemail@email.com
+description: >- # this means ignore new lines until "baseurl:"
+  This is my awesome description for this reading blog bro I can't wait to finally publish this thing. I gotta do what I gotta do.
+baseurl: "book-blog"
+url: ""
 
 sass:
   sass_dir: assets/css
+
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-autoprefixer
