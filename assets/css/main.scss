@@ -3,6 +3,10 @@
 
 @import 'bootstrap/bootstrap';
 
+body {
+    padding-top: 50px;
+}
+
 .navbar-dark {
   background-color: #512DA8;
 }
@@ -21,9 +25,11 @@
 }
 
 .jumbotron {
+  background-image: url("jumbotron.jpg");
+  background-position: center center;
+  background-size: cover;
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background-color: #d5d7db;
 }
 
 .jumbotron div {
@@ -72,5 +78,10 @@
 }
 
 .review-card {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-card {
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
