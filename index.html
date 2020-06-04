@@ -10,16 +10,20 @@ title: Home
 <div class="container">
   <h2 class="row row-header">Book Reviews</h2>
   <div class="row row-content row-grid align-self-center">
-    <div class="col-sm-3">
-      {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
+    {% assign book_reviews = site.posts | where:"grouped_by","book-review" %}
+    {% for review in book_reviews limit:3 %}
+    <div class="col-md-3">
+      <div class="card">
+        <img class="card-img-top" src="{{ review.image | prepend: site.baseurl }}" alt="{{ review.title }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ review.title }}</h5>
+          <p class="card-text">{{ review.excerpt }}</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-3">
-      {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-    </div>
-    <div class="col-sm-3">
-      {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-    </div>
-    <div class="align-self-center col-sm-3">
+    {% endfor %}
+    <div class="align-self-center col-md-3">
       <a href="reviews.html" class="btn btn-secondary">More reviews <span class="material-icons" style="vertical-align: -7px;">forward</span></a>
     </div>
   </div>
@@ -28,16 +32,21 @@ title: Home
 <div class="container">
   <h2 class="row row-header">Blog Articles</h2>
   <div class="row row-content row-grid align-self-center">
-    <div class="col-sm-3">
-      {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
+    {% assign blog_posts = site.posts | where:"grouped_by","blog-post" %}
+    {% for post in blog_posts limit:3 %}
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="card-title align-middle">{{ post.title }}</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">{{ post.excerpt }}</p>
+          <a href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-3">
-      {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-    </div>
-    <div class="col-sm-3">
-      {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-    </div>
-    <div class="col-sm-3 align-self-center">
+    {% endfor %}
+    <div class="col-md-3 align-self-center">
       <a href="blog.html" class="btn btn-secondary">More articles <span class="material-icons" style="vertical-align: -7px;">forward</span></a>
     </div>
   </div>

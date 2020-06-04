@@ -10,26 +10,19 @@ title: Reviews
   <div class="row row-content row-grid align-self-center">
     <div class="col-sm-9 mx-auto">
       <div class="row">
+        {% assign book_reviews = site.posts | where:"grouped_by","book-review" %}
+        {% for review in book_reviews %}
         <div class="review-card col-sm-4">
-          {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
+          <div class="card">
+            <img class="card-img-top" src="{{ review.image | prepend: site.baseurl }}" alt="{{ review.title }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ review.title }}</h5>
+              <p class="card-text">{{ review.excerpt }}</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
         </div>
-        <div class="review-card col-sm-4">
-          {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-        </div>
-        <div class="review-card col-sm-4">
-          {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-        </div>
-      </div>
-      <div class="row">
-        <div class="review-card col-sm-4">
-          {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-        </div>
-        <div class="review-card col-sm-4">
-          {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-        </div>
-        <div class="review-card col-sm-4">
-          {% include review.html file="images/sample.jpg" alt="Card image cap" title="Card title" content="Some quick example text to build on the card title and make up the bulk of the card's content." %}
-        </div>
+        {% endfor %}
       </div>
     </div>
 
