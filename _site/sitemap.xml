@@ -13,8 +13,16 @@
 <lastmod>2019-05-12T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/book-blog/2020/04/05/Lorem1.html</loc>
+<lastmod>2020-04-05T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/book-blog/2020/04/24/The-Library-Book-Review.html</loc>
 <lastmod>2020-04-24T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/book-blog/2020/05/10/Lorem2.html</loc>
+<lastmod>2020-05-10T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/book-blog/2020/05/19/Test-Review.html</loc>
