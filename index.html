@@ -18,7 +18,7 @@ title: Home
         <div class="card-body">
           <h5 class="card-title">{{ review.title }}</h5>
           <p class="card-text">{{ review.excerpt }}</p>
-          <a href="#">Read more</a>
+          <a href="{{ review.url | relative_url }}">Read more</a>
         </div>
       </div>
     </div>

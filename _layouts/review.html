@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> -->
+    {% seo %}
+  </head>
+  <body>
+    {% include navbar.html %}
+    <div class="container" style="padding-top: 30px;">
+      <div class="mx-auto justify-content-md-center col-md-9">
+        <div class="card">
+          <div class="container-fluid">
+            {% assign content_array = page.content | split: site.excerpt_separator %}
+            {% assign excerpt_only = content_array | first %}
+            {% assign content_remainder = content_array | last %}
+            <div class="row row-content row-grid">
+              <div class="align-self-center col-lg-3">
+                <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" style="max-height: 200px;">
+              </div>
+                <div class="align-self-center col-lg-9">
+                  <h5 class="card-title display-4">{{ page.title }}</h5>
+                  <p class="card-text" style="font-style: italic;">{{ page.excerpt }}</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="post-content" style="margin-top: 20px;">
+          {{ content_remainder | remove_first: '</p>'}}
+        </div>
+      </div>
+    </div>
+  {% include footer.html %}
+  </body>
+</html>

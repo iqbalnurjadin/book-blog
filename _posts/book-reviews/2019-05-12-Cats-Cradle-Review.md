@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: review
 title: "Cat's Cradle by Kurt Vonnegut"
 date: 2019-05-12
 grouped_by: book-review
@@ -10,9 +10,9 @@ excerpt_separator: <!--more-->
 Recommended for: readers who enjoy thinking beyond the norm; for those who wish to explore the why of our society from the perspective of a novel written in the Cold War era
 <!--more-->
 
-> My Bokonist warning is this:
+> **My Bokonist warning is this:
 > Anyone unable to understand how a useful religion can be founded on lies will not understand this book either.
-> So be it.
+> So be it.**
 > — _Cat’s Cradle_ , Kurt Vonnegut
 
 I must admit that no book has challenged my existential thinking more than Kurt Vonnegut’s _Cat’s Cradle_. From the opening chapter about the novel’s religion of Bokonism, I knew that I would be continuously thinking on my feet about the story’s underlying messages on life, religion, and humanity.
