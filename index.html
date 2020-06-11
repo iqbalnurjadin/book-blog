@@ -8,7 +8,7 @@ title: Home
 {% include three_carousel.html fileOne="images/sample.jpg" altOne="First slide" fileTwo="images/sample.jpg" altTwo="Second slide" fileThree="images/sample.jpg" altThree="Third slide" %}
 
 <div class="container">
-  <h2 class="row row-header">Book Reviews</h2>
+  <h2 class="row row-header display-4 mr-auto">Book Reviews</h2>
   <div class="row row-content row-grid align-self-center">
     {% assign book_reviews = site.posts | where:"grouped_by","book-review" %}
     {% for review in book_reviews limit:3 %}
@@ -30,7 +30,7 @@ title: Home
 </div>
 
 <div class="container">
-  <h2 class="row row-header">Blog Articles</h2>
+  <h2 class="row row-header display-4">Blog Articles</h2>
   <div class="row row-content row-grid align-self-center">
     {% assign blog_posts = site.posts | where:"grouped_by","blog-post" %}
     {% for post in blog_posts limit:3 %}
