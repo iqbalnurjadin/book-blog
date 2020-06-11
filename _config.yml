@@ -3,8 +3,8 @@ author: Iqbal Nurjadin
 email: exampleemail@email.com
 description: >- # this means ignore new lines until "baseurl:"
   This is my awesome description for this reading blog bro I can't wait to finally publish this thing. I gotta do what I gotta do.
-baseurl: "/book-blog"
-url: ""
+baseurl: ""
+url: "textbytes.blog"
 excerpt_separator: <!--more-->
 
 sass:
