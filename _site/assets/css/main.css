@@ -2730,9 +2730,19 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
   .table-dark { color: inherit; }
   .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
-body { padding-top: 50px; }
+body { padding-top: 90px; }
 
-.navbar-dark { background-color: #512DA8; }
+.btn-secondary { background-color: #00A69C !important; }
+
+.navbar { background-color: #00A69C !important; }
+
+.navbar-brand { padding-top: 0px; padding-bottom: 0px; }
+
+.navbar-nav a { float: left; display: block; color: white !important; text-align: center; text-decoration: none; font-size: 18px; border-bottom: 3px solid transparent; }
+
+.navbar-nav li a:hover { border-bottom: 3px solid white !important; }
+
+.navbar-nav .active a { font-weight: bold; border-bottom: 3px solid white !important; }
 
 .row-header { margin: 0px auto; padding-top: 50px; }
 
@@ -2742,7 +2752,7 @@ body { padding-top: 50px; }
 
 .jumbotron div { padding-top: 50px; }
 
-.footer { background-color: #d5d7db; margin: 0px auto; padding: 20px 0px 20px 0px; }
+.footer { background-color: #00A69C; margin: 0px auto; padding: 20px 0px 20px 0px; }
 
 .carousel { padding-top: 50px; }
 

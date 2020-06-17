@@ -4,11 +4,41 @@
 @import 'bootstrap/bootstrap';
 
 body {
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
-.navbar-dark {
-  background-color: #512DA8;
+.btn-secondary {
+   background-color: #00A69C !important;
+}
+
+.navbar {
+  // background-color: #512DA8;
+  background-color: #00A69C !important;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-nav a {
+  float: left;
+  display: block;
+  color: white !important;
+  text-align: center;
+  // padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 3px solid white !important;
+}
+
+.navbar-nav .active a {
+  font-weight: bold;
+  border-bottom: 3px solid white !important;
 }
 
 .row-header {
@@ -37,7 +67,8 @@ body {
 }
 
 .footer {
-  background-color: #d5d7db;
+  // background-color: #d5d7db;
+  background-color: #00A69C;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
