@@ -39,10 +39,10 @@ title: Home
     {% for post in blog_posts limit:3 %}
     <div class="col-md-3">
       <div class="card">
-        <div class="card-header">
-          <h5 class="card-title align-middle">{{ post.title }}</h5>
+        <div class="card-header align-items-center" style="margin-bottom: -15px;">
+          <h4>{{ post.title }}</h4>
         </div>
-        <div class="card-body">
+        <div class="card-body" style="margin-top: -5px;">
           <p class="card-text">{{ post.excerpt }}</p>
           <a href="{{ post.url | relative_url }}">Read more</a>
         </div>

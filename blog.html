@@ -12,8 +12,8 @@ title: Blog
   <div class="row row-content">
     <div class="mx-auto justify-content-md-center col-md-9">
       <div class="card about-card">
-        <h2 class="card-title display-4 mx-auto" style="margin-top: 10px;">{{ post.title }}</h2>
-        <div class="card-body" style="margin-top: -20px; margin-bottom: -10px;">
+        <h1 class="card-title mx-auto text-center" style="margin-top: 20px;">{{ post.title }}</h1>
+        <div class="card-body">
           {{ post.excerpt }}
           <a href="{{ post.url | relative_url }}">Read more</a>
         </div>

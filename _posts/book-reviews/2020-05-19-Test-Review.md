@@ -1,6 +1,9 @@
 ---
 layout: review
 title: "Random Book by Random Author"
+tags: ['Random']
+published: 2020
+reviewer: Iqbal Nurjadin
 date: 2020-05-19
 grouped_by: book-review
 image: /images/covers/randomcover.png

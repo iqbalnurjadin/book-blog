@@ -24,7 +24,8 @@
     {% include navbar.html %}
     <div class="container blog-post" style="padding-top: 50px;">
       <div class="mx-auto justify-content-md-center col-md-9">
-        <h2 class="card-title display-4 mx-auto" style="margin-top: 10px;">{{ page.title }}</h2>
+        <h2 class="card-title display-4 mx-auto">{{ page.title }}</h2>
+        <h4 style="margin-bottom: 30px;">By: {{ page.author }}</h4>
         {{ content }}
       </div>
     </div>
