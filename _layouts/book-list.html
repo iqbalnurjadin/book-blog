@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169619981-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169619981-1');
+    </script>
+    {% seo %}
+  </head>
+  <body>
+    {% include navbar.html %}
+    <div class="container blog-post" style="padding-top: 50px;">
+      <div class="mx-auto justify-content-md-center col-md-9">
+        <h2 class="card-title display-4 mx-auto">{{ page.title }}</h2>
+        <h4 style="margin-bottom: 30px;">By: {{ page.author }}</h4>
+        {{ content }}
+        <div class="row row-grid align-self-center" style="margin-top: 30px;">
+          <div class="col-md-12 mx-auto">
+            <div class="row">
+              {% assign book_list = site.posts | where:"grouped_by","book-list" %}
+              {% for book in book_list %}
+                {% if book.tag == page.tag %}
+                  <div class="review-card col-sm-4">
+                    <div class="card">
+                      <img class="card-img-top" src="{{ book.image | prepend: site.baseurl }}" alt="{{ page.title }}">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ book.title }} by {{ book.author }}</h5>
+                        <p class="card-text">Published in {{ book.published }}</p>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% include footer.html %}
+  </body>
+</html>
