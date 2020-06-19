@@ -2732,6 +2732,8 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
 body { padding-top: 90px; }
 
+.btn-outline-secondary:hover { background-color: #00A69C !important; }
+
 .btn-secondary { background-color: #00A69C !important; }
 
 .navbar { background-color: #00A69C !important; }
