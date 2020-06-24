@@ -4,7 +4,7 @@ title: "Cat's Cradle by Kurt Vonnegut"
 tags: ['Satire', 'Science Fiction']
 published: 1963
 reviewer: Iqbal Nurjadin
-date: 2019-05-12
+date: 2020-05-12
 grouped_by: book-review
 image: /images/covers/catscradle.jpg
 excerpt_separator: <!--more-->
