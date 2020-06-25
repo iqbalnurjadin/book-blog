@@ -2,6 +2,7 @@
 layout: book-list
 title: "Stories by Black Authors"
 author: Iqbal Nurjadin
+time: 3 minute
 date: 2020-06-19
 grouped_by: blog-post
 tag: black-authors-2020

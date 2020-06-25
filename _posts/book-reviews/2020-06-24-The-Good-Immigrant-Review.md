@@ -1,9 +1,10 @@
 ---
 layout: review
 title: "The Good Immigrant: 26 Writers Reflect on America by Nikesh Shukla"
-tags: ['Society', 'Race', 'Memoir']
+tags: ['Personal Essay', 'Race', 'Memoir']
 published: 2016
 reviewer: Iqbal Nurjadin
+time: 3 minute
 date: 2020-06-24
 grouped_by: book-review
 image: /images/covers/The-Good-Immigrant.jpeg

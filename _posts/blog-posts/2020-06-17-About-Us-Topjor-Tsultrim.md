@@ -2,12 +2,13 @@
 layout: post
 title: "About Us: Topjor Tsultrim"
 author: Topjor Tsultrim
+time: 2 minute
 date: 2020-06-17
 grouped_by: blog-post
 excerpt_separator: <!--more-->
 ---
 
-When I was in elementary school, my parents often worked late. The afterschool program was expensive, so the local library became my refuge. There, I would wander among the stacks for hours, lost in an infinite multitude of worlds, until my parents would pull me back to the reality of our life.<!--more--> In this way, reading became the most exciting, captivating, tragic, and shocking thing in my life. It let me escape the monotony of my life and, for a few hundred pages, share the adventures, travesties, and conundrums of my heroes and heroines. Books introduced me to the storylines, complexities, and conflicts I couldn’t find between the walls of our apartment or in the hallways of my school. 
+When I was in elementary school, my parents often worked late. The afterschool program was expensive, so the local library became my refuge. There, I would wander among the stacks for hours, lost in an infinite multitude of worlds, until my parents would pull me back to the reality of our life.<!--more--> In this way, reading became the most exciting, captivating, tragic, and shocking thing in my life. It let me escape the monotony of my life and, for a few hundred pages, share the adventures, travesties, and conundrums of my heroes and heroines. Books introduced me to the storylines, complexities, and conflicts I couldn’t find between the walls of our apartment or in the hallways of my school.
 
 Once I got to college, however, I realized what I cherished most about reading was far deeper than escape. Rather, instead of supplanting my own reality with that which an author has conjured through miraculous invention, I began to notice the ways in which those same dynamics played out in my own life. Thanks to a freshman-year course on the literary theory of the novel, I realized that I was always engaged in that practice of self-identification. Whether I was providing for my siblings in The Boxcar Children or acknowledging the sacrifice of loved ones in Eragon, I was perpetually engaged in diving into the worlds of my books; they, in turn, were diving into me.
 

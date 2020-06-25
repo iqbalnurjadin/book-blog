@@ -15,6 +15,7 @@ title: Blog
         <h1 class="card-title mx-auto text-center" style="margin-top: 20px;">{{ post.title }}</h1>
         <div class="card-body">
           {{ post.excerpt }}
+          <p class="card-text">{{ post.time }} read</p>
           <a href="{{ post.url | relative_url }}">Read more</a>
         </div>
       </div>

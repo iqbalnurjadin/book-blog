@@ -2,6 +2,7 @@
 layout: post
 title: "About Us: Iqbal Nurjadin"
 author: Iqbal Nurjadin
+time: 2 minute
 date: 2020-06-17
 grouped_by: blog-post
 excerpt_separator: <!--more-->

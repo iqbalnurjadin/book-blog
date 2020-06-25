@@ -2,6 +2,7 @@
 layout: post
 title: "Why I Bought a Kindle"
 author: Iqbal Nurjadin
+time: 3 minute
 date: 2020-06-24
 grouped_by: blog-post
 excerpt_separator: <!--more-->

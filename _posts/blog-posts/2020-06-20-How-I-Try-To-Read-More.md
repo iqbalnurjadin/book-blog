@@ -2,6 +2,7 @@
 layout: post
 title: "How I Try to Read More"
 author: Iqbal Nurjadin
+time: 4 minute
 date: 2020-06-20
 grouped_by: blog-post
 excerpt_separator: <!--more-->

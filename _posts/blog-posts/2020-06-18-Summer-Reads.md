@@ -2,6 +2,7 @@
 layout: book-list
 title: "Summer Picks by Our Readers"
 author: Iqbal Nurjadin
+time: 1 minute
 date: 2020-06-18
 grouped_by: blog-post
 tag: summer-reads-2020

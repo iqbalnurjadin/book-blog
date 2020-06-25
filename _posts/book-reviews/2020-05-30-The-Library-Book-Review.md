@@ -4,6 +4,7 @@ title: "The Library Book by Susan Orlean"
 tags: ['Mystery', 'History']
 published: 2018
 reviewer: Iqbal Nurjadin
+time: 3 minute
 date: 2020-05-30
 grouped_by: book-review
 image: /images/covers/librarybook.jpg
