@@ -13,3 +13,5 @@ Systemic racism permeates throughout our society, and particularly in the United
 <!--more-->
 
 We believe in the power of storytelling. In its ability to make us empathize, learn, and reflect. As such, we believe that one step towards dismantling the structures of oppression can be to read black stories. The complexity of racism means no one solution will address discrimination. However, in reading and promoting black writers, we hope to instill the foundation for a deeper understanding of the issues affecting the black community.
+
+Here are a few selections that we think are meaningful. This is by no means an exhaustive or complete list, but these books all offer invaluable perspectives to readers of all backgrounds.
