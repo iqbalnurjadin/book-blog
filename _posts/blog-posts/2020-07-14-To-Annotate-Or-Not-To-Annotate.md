@@ -8,7 +8,7 @@ grouped_by: blog-post
 excerpt_separator: <!--more-->
 ---
 
-I remember those days in my middle school and high school English class. My teachers would scrutinize each one of our books to make sure we annotated each page, just as they had instructed us to. To a certain extent, annotating novels made sense: it made discussions much easier for me and helped me understand the novel more thoroughly by writing out my thoughts. Also, I always felt bad making the teacher upset.
+I remember those days in my middle school and high school English class. My teachers would scrutinize each one of our books to make sure we annotated each page, just as they had instructed us to. To a certain extent, annotating novels made sense: it made discussions much easier for me and helped me understand the novel more thoroughly by writing out my thoughts. Also, I always felt bad making the teacher upset.<!--more-->
 
 I ended up carrying this habit with me into college. The page margins in the books I read throughout my first year were filled with tiny notes, some of which were unreadable because of my microscopic handwriting. But slowly, the habit of annotating died away. Annotating became an annoying task, particularly in places where I could not rest the book onto a table. You can imagine the struggle of trying to write properly on a train commute that refuses to stop shaking.
 
