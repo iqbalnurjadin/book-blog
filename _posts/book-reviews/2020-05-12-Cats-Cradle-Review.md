@@ -30,5 +30,3 @@ There is also smart humor embedded into the novel, a feature one would expect fr
 To fully appreciate Vonnegut’s writing, I seriosuly had to take a step back and almost put myself into an English classroom setting to dissect the events in the novel. For that reason, I do think this book pushes slightly beyond the boundaries of casual reading. I definitely took the time to scour the internet when certain clues piqued my curiosity. But even without a deep dive into the novel’s mysteries, I think the novel asks us why we should even care about the mythos of Bokonism or The Republic of San Lorenzo in the first place.
 
 If this book was an adventure, I’d consider myself as Dorothy being whisked away from Kansas right into the middle of a Star Wars battle. The novel broke down the many aspects of society that I have become familiar with and its conclusion left me questioning not only the actions in my life, but the motives of human behavior throughout history. In the midst of our busy, or maybe not so busy, lives, take the time to experience _Cat’s Cradle_. It even has a bright, colorful book cover. What’s not to like?
-
-and test

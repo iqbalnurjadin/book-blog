@@ -5,7 +5,7 @@ tags: ['Personal Essay', 'History']
 published: 2021
 reviewer: Iqbal Nurjadin
 time: 4 minute
-date: 2020-05-12
+date: 2022-03-26
 grouped_by: book-review
 image: /images/covers/The-Anthropocene-Reviewed.jpeg
 excerpt_separator: <!--more-->
