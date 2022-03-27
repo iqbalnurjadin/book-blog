@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "The Anthropocene Reviewed"
+title: "The Anthropocene Reviewed by John Green"
 tags: ['Personal Essay', 'History']
 published: 2021
 reviewer: Iqbal Nurjadin
